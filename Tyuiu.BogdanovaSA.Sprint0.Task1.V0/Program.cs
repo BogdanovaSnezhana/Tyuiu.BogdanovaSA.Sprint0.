@@ -13,7 +13,7 @@ namespace Tyuiu.BogdanovaSA.Sprint0.Task1.V0
             Console.WriteLine("Hello, World!");
             string name = "Снежана";
             int age = 17;
-            Console.WriteLine("Здравсвуйте, меня зовут "+ name + " мне " + age + " лет.");
+            Console.WriteLine("Здравсвуйте, меня зовут "+ name + " мне " + age + " лет!");
             Console.ReadKey();
 
 
