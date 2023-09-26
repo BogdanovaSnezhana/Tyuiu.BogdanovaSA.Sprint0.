@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CCCBF7E-4D4A-4DC2-A486-D4A864845255}</ProjectGuid>
+    <ProjectGuid>{DC484CB1-2EC7-4DE0-A0B4-BF7907177009}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.BogdanovaSA.Sprint0</RootNamespace>
-    <AssemblyName>Tyuiu.BogdanovaSA.Sprint0</AssemblyName>
+    <RootNamespace>Tyuiu.BogdanovaSA.Sprint0.task2.V0</RootNamespace>
+    <AssemblyName>Tyuiu.BogdanovaSA.Sprint0.task2.V0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.BogdanovaSA.Sprint0.V0.Lib\Tyuiu.BogdanovaSA.Sprint0.Task2.V0.Lib.csproj">
+      <Project>{b9bdedc6-9eaf-4711-bd6a-d5f940c075f5}</Project>
+      <Name>Tyuiu.BogdanovaSA.Sprint0.Task2.V0.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
