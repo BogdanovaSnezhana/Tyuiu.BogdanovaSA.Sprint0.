@@ -23,7 +23,16 @@ namespace Tyuiu.BogdanovaSA.Sprint0.Task4.V0.Lib
 
         public static double Division(int a, int b)
         {
-            return a / b;
+            if (b==0)
+            {
+                return -1;
+
+            }
+            else
+            {
+                return a / b;
+            }
         }
+
     }
 }
