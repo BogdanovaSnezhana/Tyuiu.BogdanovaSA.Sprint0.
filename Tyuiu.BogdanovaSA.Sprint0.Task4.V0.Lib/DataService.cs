@@ -8,7 +8,7 @@ namespace Tyuiu.BogdanovaSA.Sprint0.Task4.V0.Lib
 {
     public class DataService
     {
-        public static int Addition(int a, int b)
+        public static int Addition(int a, int b) //таск 4 и 5
         {
             return a + b;
         }
